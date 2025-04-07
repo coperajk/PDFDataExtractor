@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# PDF Document Analyzer
-# extracts text and analyzes content of PDF files
+# PDF Data Extractor
 
 # IMPORTANT below is the pip query for everything this project uses
 # pip install numpy matplotlib pandas wordcloud pytesseract pdf2image pillow
