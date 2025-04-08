@@ -2,7 +2,7 @@
 # PDF Data Extractor
 
 # IMPORTANT below is the pip query for everything this project uses
-# pip install numpy matplotlib pandas wordcloud pytesseract pdf2image pillow
+# pip install numpy matplotlib pandas wordcloud pytesseract pdf2image pillow pypdf2 pdfplumber
 # you also need to install tesseract separately (sudo dnf install tesseract tesseract-devel tesseract-langpack-eng if you are on fedora like me)
 # arguments with their explanations are above the main() function near the bottom of the code
 
