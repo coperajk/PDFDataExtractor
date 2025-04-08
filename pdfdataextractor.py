@@ -35,11 +35,11 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("PDFDataExtractor.log"),
+        logging.FileHandler("pdfdataextractor.log"),
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger("PDFDataExtractor")
+logger = logging.getLogger("pdfdataextractor")
 
 # class which represents the PDF analysis instance. every different aspect has a separate function so it looks cleaner
 class PDFAnalyzer:
